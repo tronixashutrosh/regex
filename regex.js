@@ -1,2 +1,3 @@
-const float_validation = ^[0-9]*(\.[0-9]+)*$
-const int_validation = ^[0-9]*$
+const validateFloat = ^[0-9]*(\.[0-9]+)*$
+const validateNumber = ^[0-9]*$
+const validateEmail = ^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$
